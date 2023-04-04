@@ -7,7 +7,7 @@ const Article = (props) =>{
   <h4>11/12/20</h4>
   <h3>On the Street in Brooklyn</h3>
   <img
-    src="../images/blog-image-1.jpg"
+    src={img1}
     alt="girl in red dress against blue building"
   />
   <p>
@@ -32,7 +32,7 @@ const Article = (props) =>{
 <article>
   <h4>11/11/20</h4>
   <h3>Vintage in Vogue</h3>
-  <img src="../images/blog-image-2.jpg" alt="people at night" />
+  <img src={img2} alt="people at night" />
   <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur
     neque ea animi nostrum ad vel quam quo, commodi omnis architecto dolor
